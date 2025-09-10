@@ -123,7 +123,29 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="equilateralTriangle.cpp" />
+    <ClCompile Include="isoscelesTriangle.cpp" />
     <ClCompile Include="netology_homework_2_6_3.cpp" />
+    <ClCompile Include="parallelogram.cpp" />
+    <ClCompile Include="quadrangle.cpp" />
+    <ClCompile Include="rectangle.cpp" />
+    <ClCompile Include="rhomb.cpp" />
+    <ClCompile Include="rightTriangle.cpp" />
+    <ClCompile Include="shape.cpp" />
+    <ClCompile Include="square.cpp" />
+    <ClCompile Include="triangle.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="equilateralTriangle.h" />
+    <ClInclude Include="isoscelesTriangle.h" />
+    <ClInclude Include="parallelogram.h" />
+    <ClInclude Include="quadrangle.h" />
+    <ClInclude Include="rectangle.h" />
+    <ClInclude Include="rhomb.h" />
+    <ClInclude Include="rightTriangle.h" />
+    <ClInclude Include="shape.h" />
+    <ClInclude Include="square.h" />
+    <ClInclude Include="triangle.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
